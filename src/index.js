@@ -1,6 +1,5 @@
-require("dotenv").config();
-
-const apiKey = process.env.API_KEY;
+// src/index.js
+import { apiKey } from "./config.js";
 
 const fetchWeatherData = async (location) => {
   try {

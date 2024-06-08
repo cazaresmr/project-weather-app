@@ -3,6 +3,8 @@ node_modules/
 
 # Environment variable file
 .env
+src/config.js
+
 
 # Build output directories
 dist/
